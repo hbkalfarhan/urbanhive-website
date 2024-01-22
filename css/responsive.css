@@ -1,0 +1,81 @@
+@media screen and (max-width: 800px) {
+    .grid-container{
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .discount-img-text-container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .grid-container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+
+@media screen and (max-width:400px){
+    .nav-container{
+        flex-direction:column;
+    }
+
+    .nav-items-container{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .nav-items-container a{
+        margin-top: 20px;
+        
+    }
+
+    .nav-items-container .login-btn{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    
+    /* banner responsive design */
+
+    .banner-container{
+        flex-direction: column;
+    }
+
+    .banner-text, .banner-img{
+        width: 100%;
+    }
+
+    .banner-text h1{
+        font-size: 30px;
+    }
+
+    .banner-text p{
+        font-size: 30px;
+    }
+
+    .fa-brands{
+        font-size: 30px;
+    }
+
+    .banner-btn{
+        margin-bottom: 20px ;
+    }
+
+    .grid-container{
+        grid-template-columns: 1fr;
+    }
+
+    .discount-img-text-container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .discount-img{
+        width: 100%;
+    }
+    
+    .discount-text{
+        width: 100%;
+    }
+
+}
